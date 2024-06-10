@@ -1,0 +1,186 @@
+.corpo1 {
+    margin-right: 50%;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+.status p {
+    font-size: 18px;
+    text-align: center;
+    color: #333;
+}
+
+.market {
+    margin-top: 20px;
+}
+
+.market h2 {
+    margin-bottom: 10px;
+}
+
+.faixa {
+    border-top: 2px solid #eee;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 180px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.item p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+button {
+    background-color: #9900ff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.4s ease;
+}
+
+button:hover {
+    background-color: #2f00ff;
+}
+
+.checkout {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.checkout button {
+    background-color: #9900ff;
+}
+
+.checkout button:hover {
+    background-color: #2f00ff;
+}
+
+
+/*Monstro*/
+
+.monstro {
+    display: flex;
+    margin-left: 70%;
+    margin-top: -500px;
+}
+
+.corpom {
+    width: 150px;
+    height: 200px;
+    background-color: #f03131;
+    border-radius: 50% 50% 40% 40%;
+    position: relative;
+    border: 3px solid #333;
+
+}
+
+.olhom {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid #333;
+    position: absolute;
+    top: 50px;
+}
+
+.olhoe{
+    left: 30px;
+}
+
+.olhod {
+    right: 30px;
+}
+
+.pupilam {
+    width: 20px;
+    height: 20px;
+    background-color: #333;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.bocam {
+    width: 80px;
+    height: 50px;
+    background-color: #5f368d;
+    border-radius: 0 0 50px 50px;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid #333;
+}
+
+
+.fala {
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    padding: 10px;
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.fala:after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top-color: #fff;
+    border-bottom: 0;
+    margin-left: -10px;
+    border-right-color: #333;
+    border-left-color: #333;
+}

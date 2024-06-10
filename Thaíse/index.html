@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo do Caixa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="corpo1">
+        <div class="container">
+            <h1>Jogo do Caixa</h1>
+                <div class="status">
+                    <p><strong>Total da Compra:</strong> R$ <span id="total">0.00</span></p>
+                 </div>
+                     <div class="market faixa">
+                        <h2>Produtos</h2>
+            
+                        <ul>
+            
+            
+                         <div class="item">
+                            <li><p>Maçã - R$ 1.99</p></li>
+                            <button onclick="scanItem('Maçã', 1.99)">Escanear</button>
+                        </div>
+                         <div class="item">
+                            <li><p>Pão - R$ 0.99</p></li>
+                            <button onclick="scanItem('Pão', 0.99)">Escanear</button>
+                         </div>
+                         <div class="item">
+                             <p>Leite - R$ 2.99</p></li>
+                            <button onclick="scanItem('Leite', 2.99)">Escanear</button>
+                        </div>
+                        <div class="item">
+                            <li><p>Água - R$ 1.99</p></li>
+                            <button onclick="scanItem('Água', 1.99)">Escanear</button>
+                         </div>
+                        <div class="item">
+                            <li><p>Bolacha Recheada - R$ 4.99</p></li>
+                            <button onclick="scanItem('Bolacha Recheada', 4.99)">Escanear</button>
+                        </div>
+                        <div class="item">
+                            <li><p>Empanado de Frango - R$ 18.99</p></li>
+                            <button onclick="scanItem('Empanado de Frango', 18.99)">Escanear</button>
+                         </div>
+                        <div class="item">
+                            <li><p>Café Torrado - R$ 6.89</p></li>
+                            <button onclick="scanItem('Café Torrado', 6.89)">Escanear</button>
+                         </div>
+                         <div class="item">
+                            <li><p>Farinha de Trigo - R$ 4.99</p></li>
+                            <button onclick="scanItem('Farinha de Trigo', 4.99)">Escanear</button>
+                        </div>
+                        <div class="item">
+                             <li><p>Sardinha em Lata - R$ 4.29</p></li>
+                            <button onclick="scanItem('Sarinha em lata', 4.29)">Escanear</button>
+                        </div>
+                        <div class="item">
+                             <li><p>Ervilha em Conserva - R$ 3.29</p></li>
+                            <button onclick="scanItem('Ervilha em Conserva', 3.29)">Escanear</button>
+                        </div>
+                        <div class="item">
+                            <li><p>Papel Higiênico - R$ 10.69</p></li>
+                            <button onclick="scanItem('Papel Higiênico', 10.69)">Escanear</button>
+                         </div>
+                        <div class="item">
+                            <li><p>Estrato de Tomate - R$ 1.19</p></li>
+                            <button onclick="scanItem('Estrato de Tomate', 1.19)">Escanear</button>
+                      </div>
+            
+        
+        
+        </ul>
+    </div>
+
+        <div class="checkout">
+            <button onclick="checkout()">Finalizar Compra</button>
+        </div>
+    </div>
+        </div>
+
+    <div class="monstro">
+        <div class="corpom">
+            <div class="olhom olhoe">
+                <div class="pupilam"></div>
+            </div>
+            <div class="olhom olhod">
+                <div class="pupilam"></div>
+            </div>
+            <div class="bocam"></div>
+            <div class="fala">
+                <p id="texto">Olá, amigo!</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script/script.js"></script>
+</body>
+</html>
