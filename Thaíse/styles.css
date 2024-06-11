@@ -6,7 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+
 }
 
 .container {
@@ -16,6 +16,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 800px;
     width: 100%;
+    margin-top: 10px;
 }
 
 h1, h2 {
@@ -43,6 +44,20 @@ h1, h2 {
     margin-top: 20px;
 }
 
+.listagem {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.listagem li {
+    margin-right: 10px;
+}
+
+
 ul {
     list-style-type: none;
     padding: 0;
@@ -50,6 +65,7 @@ ul {
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
+    
 }
 
 .item {
@@ -85,7 +101,8 @@ button:hover {
 
 .checkout {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 0;
+    margin-bottom: -10px;
 }
 
 .checkout button {
@@ -96,67 +113,63 @@ button:hover {
     background-color: #2f00ff;
 }
 
-
-/*Monstro*/
-
-.monstro {
-    display: flex;
-    margin-left: 70%;
-    margin-top: -500px;
+.footer.listagem {
+    overflow-x: auto;
+    padding: 20px 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-top: 610px;
 }
 
-.corpom {
-    width: 150px;
-    height: 200px;
-    background-color: #f03131;
-    border-radius: 50% 50% 40% 40%;
-    position: relative;
-    border: 3px solid #333;
-
+.footer.listagem ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+    flex-wrap: nowrap; 
+    overflow-x: auto; 
 }
 
-.olhom {
-    width: 40px;
-    height: 40px;
-    background-color: white;
-    border-radius: 50%;
-    border: 2px solid #333;
-    position: absolute;
-    top: 50px;
+.footer.listagem li {
+    margin-right: 20px; 
 }
 
-.olhoe{
-    left: 30px;
+.footer.listagem .item {
+    text-align: center; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    padding: 10px; 
+    min-width: 150px;
 }
 
-.olhod {
-    right: 30px;
+.footer.listagem .item p {
+    margin: 5px 0; 
 }
 
-.pupilam {
-    width: 20px;
-    height: 20px;
-    background-color: #333;
-    border-radius: 50%;
-    position: absolute;
-    top: 10px;
-    left: 10px;
+.footer.listagem button {
+    background-color: #3498db; 
+    color: #fff; 
+    border: none; 
+    padding: 5px 10px; 
+    border-radius: 3px; 
+    cursor: pointer; 
+    transition: background-color 0.3s;
 }
 
-.bocam {
-    width: 80px;
-    height: 50px;
-    background-color: #5f368d;
-    border-radius: 0 0 50px 50px;
-    position: absolute;
-    bottom: 30px;
-    left: 50%;
-    transform: translateX(-50%);
-    border: 2px solid #333;
+.footer.listagem button:hover {
+    background-color: #2980b9; 
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url(mercado.png);
+    background-position: 0px -455px;
+    background-repeat: no-repeat;
+  }
 
-.fala {
+  .fala {
     position: absolute;
     top: -70px;
     left: 50%;
@@ -167,6 +180,8 @@ button:hover {
     border: 2px solid #333;
     border-radius: 10px;
     text-align: center;
+    margin-top: 350px;
+    margin-left: 50px;
 }
 
 .fala:after {
@@ -183,4 +198,8 @@ button:hover {
     margin-left: -10px;
     border-right-color: #333;
     border-left-color: #333;
+}
+.posicao{
+    margin-top: -700px;
+    margin-left: 760px;
 }

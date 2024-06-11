@@ -27,7 +27,8 @@ document.addEventListener("DOMContentLoaded", function() {
     const items = [
         'Maçã', 'Pão', 'Leite', 'Água', 'Bolacha Recheada',
         'Empanado de Frango', 'Café Torrado', 'Farinha de Trigo',
-        'Sardinha em Lata', 'Ervilha em Conserva', 'Papel Higiênico'
+        'Sardinha em Lata', 'Ervilha em Conserva', 'Papel Higiênico',
+        'Extrato de Tomate', 'Gatorade', 'Açucar', 'Arroz', 'Cebola'
     ];
 
     function getRandomItem() {
