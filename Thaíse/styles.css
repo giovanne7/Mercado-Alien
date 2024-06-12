@@ -1,22 +1,14 @@
-.corpo1 {
-    margin-right: 50%;
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
 .container {
-    background-color: #f9f9f9;
+    background-color: #F5f5dc;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 800px;
+    max-width: 600px; 
     width: 100%;
     margin-top: 10px;
+    margin-left: 10px;
+    border: 2px solid #c91e1e; 
+
 }
 
 h1, h2 {
@@ -30,34 +22,6 @@ h1, h2 {
     color: #333;
 }
 
-.market {
-    margin-top: 20px;
-}
-
-.market h2 {
-    margin-bottom: 10px;
-}
-
-.faixa {
-    border-top: 2px solid #eee;
-    padding-top: 10px;
-    margin-top: 20px;
-}
-
-.listagem {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-
-}
-
-.listagem li {
-    margin-right: 10px;
-}
-
-
 ul {
     list-style-type: none;
     padding: 0;
@@ -65,27 +29,10 @@ ul {
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
-    
-}
-
-.item {
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 10px;
-    width: 180px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-.item p {
-    margin: 10px 0;
-    font-size: 16px;
-    color: #333;
 }
 
 button {
-    background-color: #9900ff;
+    background-color: #c91e1e;
     color: white;
     border: none;
     padding: 10px;
@@ -95,29 +42,34 @@ button {
     transition: background-color 0.4s ease;
 }
 
+.finalizarcompra{
+    background-color: #f9f9f9;
+
+}
+
 button:hover {
-    background-color: #2f00ff;
+    background-color: #5391c7;
 }
 
 .checkout {
     text-align: center;
-    margin-top: 0;
+    margin-top: 10px;
     margin-bottom: -10px;
 }
 
 .checkout button {
-    background-color: #9900ff;
+    background-color: #c91e1e;
 }
 
 .checkout button:hover {
-    background-color: #2f00ff;
+    background-color: #5391c7;
 }
 
 .footer.listagem {
     overflow-x: auto;
     padding: 20px 0;
     background-color: #f9f9f9;
-    border: 1px solid #ddd;
+    border: 1px solid #c91e1e;
     margin-top: 610px;
 }
 
@@ -128,36 +80,11 @@ button:hover {
     display: flex; 
     flex-wrap: nowrap; 
     overflow-x: auto; 
+    width:fit-content;
 }
 
 .footer.listagem li {
-    margin-right: 20px; 
-}
-
-.footer.listagem .item {
-    text-align: center; 
-    border: 1px solid #ccc; 
-    border-radius: 5px; 
-    padding: 10px; 
-    min-width: 150px;
-}
-
-.footer.listagem .item p {
-    margin: 5px 0; 
-}
-
-.footer.listagem button {
-    background-color: #3498db; 
-    color: #fff; 
-    border: none; 
-    padding: 5px 10px; 
-    border-radius: 3px; 
-    cursor: pointer; 
-    transition: background-color 0.3s;
-}
-
-.footer.listagem button:hover {
-    background-color: #2980b9; 
+    margin-right: 10px; 
 }
 
 body {
@@ -167,11 +94,11 @@ body {
     background-image: url(mercado.png);
     background-position: 0px -455px;
     background-repeat: no-repeat;
-  }
+}
 
-  .fala {
-    position: absolute;
-    top: -70px;
+.fala {
+    position:absolute;
+    top: -40px;
     left: 50%;
     transform: translateX(-50%);
     width: 150px;
@@ -180,7 +107,7 @@ body {
     border: 2px solid #333;
     border-radius: 10px;
     text-align: center;
-    margin-top: 350px;
+    margin-top: 290px;
     margin-left: 50px;
 }
 
@@ -199,7 +126,59 @@ body {
     border-right-color: #333;
     border-left-color: #333;
 }
-.posicao{
-    margin-top: -700px;
+
+.posicao {
+    margin-top: -1000px;
     margin-left: 760px;
+}
+
+.produto {
+    width: 150px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 310px;
+
+}
+
+.produto img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.produto h3 {
+    margin-top: 10px;
+    text-align: center;
+    color: #333;
+}
+
+.produto button {
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+}
+
+.luckiest-guy-regular {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.produto {
+    border: 2px solid #c91e1e; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(209, 21, 8, 0.5); 
+    background-color: #F5f5dc
+}
+.footer.listagem {
+    background: green
+
+   
 }
